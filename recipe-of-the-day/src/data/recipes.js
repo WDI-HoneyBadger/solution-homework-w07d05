@@ -1,24 +1,24 @@
 const recipes = [
   {
-    name: 'Chunky Baked Bean Sandwich'
+    name: "Chunky Baked Bean Sandwich",
     servings: 8,
-    category: 'appetizer'
+    category: "appetizer"
   },
   {
-    name: 'Balogna Sandwich',
+    name: "Balogna Sandwich",
     servings: 1,
-    category: 'lunch'
+    category: "lunch"
   },
   {
-    name: 'Doritos',
+    name: "Doritos",
     servings: 80,
-    category: 'snack'
+    category: "snack"
   },
   {
-    name: 'Gatorade Infused Dates',
+    name: "Gatorade Infused Dates",
     servings: 12,
-    category: 'appetizer'
+    category: "appetizer"
   }
-]
+];
 
 export default recipes;

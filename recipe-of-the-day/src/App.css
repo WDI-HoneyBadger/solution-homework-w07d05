@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1px;
+}
+
+img {
+  height: 232px;
+  width: auto;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #646464;
+  background-color: #646464;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 49.3%;
+  height: 100%;
+  border: 3px solid #fa00ff;
+  background: linear-gradient(
+      180deg,
+      #9cc9ff 0%,
+      rgba(95, 147, 248, 0.331492) 43.09%,
+      rgba(16, 94, 245, 0) 100%
+    ),
+    #b3ffd6;
+}
+
+.recipe {
+  margin: 5% auto;
+  background: rgba(242, 242, 242, 0.65);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 97%;
+  height: 90%;
+  padding: 3% 0px;
+}
+
+.description {
+  text-align: left;
+  padding: 15px;
+}
+
+.ingredient {
+  margin: 0px;
+  padding: 0px;
+  height: 27px;
+  background: #f4f4f4;
+  border: 2px solid #ff45ec;
+}
+
+.recipe p {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.ingredient-container {
+  padding-top: 10px;
+}
